@@ -1,0 +1,28 @@
+#banner-container {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to left top, #202020, #454545);
+}
+#banner-container h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75);
+}
+#banner-container p {
+    margin-top: 5px;
+    color: #616161;
+}
+#banner-container img {
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.75));
+}
+#banner-container img:hover {
+    transform: rotate(360deg);
+}
