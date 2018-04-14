@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 import Banner from '../Banner'
 import Header from '../Header'
 import Info from '../Info'
@@ -10,6 +10,7 @@ import Project from '../Project'
 import About from '../About'
 
 class App extends Component {
+
   render() {
     return (
       <div>

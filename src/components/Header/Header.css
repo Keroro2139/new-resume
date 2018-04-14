@@ -30,7 +30,15 @@ li {
     transition: all .1s ease-in-out;
 }
 li:hover {
-    color: #fff;
-    background-color: #1970C6;
-    border-bottom: 3px solid #202020;    
+    color: #202020;
+    background-color: #ddd;
+    border-bottom: 3px solid #202020;
+}
+#information.active, #skill.active, #experience.active, #education.active, #project.active, #about.active {
+    border-bottom: 3px solid #202020;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
