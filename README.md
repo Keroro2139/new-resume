@@ -1,4 +1,4 @@
 ## Weerapat Site
-- [react]
-- [react-router-dom]
-- [react-scripts]
+- react
+- react-router-dom
+- react-scripts
